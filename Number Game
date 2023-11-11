@@ -1,0 +1,16 @@
+def unique_number_game():
+used_numbers = set()
+print("Welcome to the Unique Number Game! Enter a unique number each time.")
+
+while True:
+guess = input("Enter a number: ")
+if guess.isdigit():
+if int(guess) in used_numbers:
+print("Sorry, that number has already been used. Game over!")
+break
+else:
+used_numbers.add(int(guess))
+else:
+print("Please enter a valid number.")
+
+unique_number_game()

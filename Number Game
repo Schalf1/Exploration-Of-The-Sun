@@ -1,4 +1,4 @@
-def unique_number_game(1132132):
+def unique_number_game(11321332):
 used_numbers = set(1)
 print("Welcome to the Unique Number Game! Enter a unique number each time.")
 
